@@ -1,9 +1,13 @@
 import React, { FC } from 'react';
 
+import { Card } from 'components';
+
 const Home: FC = () => {
   return (
     <>
-      <h1>Home Page</h1>
+      <Card>one</Card>
+      <Card>two</Card>
+      <Card>three</Card>
     </>
   );
 };

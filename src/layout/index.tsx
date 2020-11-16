@@ -1,13 +1,20 @@
 import React, { FC } from 'react';
 
-import { Card, Content, Title } from './styles';
+import { HeaderContent, FooterContent } from 'components';
+
+import { Content, Header, Footer } from './styles';
 
 const Layout: FC = ({ children }) => {
   return (
-    <Content>
-      <Title>Euchre</Title>
-      <Card>{children}</Card>
-    </Content>
+    <div>
+      <Header>
+        <HeaderContent />
+      </Header>
+      <Content>{children}</Content>
+      <Footer>
+        <FooterContent />
+      </Footer>
+    </div>
   );
 };
 

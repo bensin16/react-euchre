@@ -1,25 +1,24 @@
 import styled, { css } from 'styled-components';
 
-export const Card = styled.div`
-  ${({ theme }) => css`
-    align-items: stretch;
-    background-color: ${theme.colors.white};
-    border-radius: 15px;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    max-height: fit-content;
-    padding: 15px;
-  `}
-`;
-
 export const Content = styled.div`
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   max-height: fit-content;
+`;
+
+export const Footer = styled.footer`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+export const Header = styled.header`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 `;
 
 export const Title = styled.h1`
