@@ -17,8 +17,14 @@ export const Footer = styled.footer`
 export const Header = styled.header`
   display: flex;
   flex-direction: column;
+  height: 20%;
   justify-content: center;
   text-align: center;
+`;
+
+export const LayoutDiv = styled.div`
+  width: 100%;
+  margin: 10px 50px;
 `;
 
 export const Title = styled.h1`

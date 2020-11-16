@@ -2,11 +2,11 @@ import React, { FC } from 'react';
 
 import { HeaderContent, FooterContent } from 'components';
 
-import { Content, Header, Footer } from './styles';
+import { Content, Header, LayoutDiv, Footer } from './styles';
 
 const Layout: FC = ({ children }) => {
   return (
-    <div>
+    <LayoutDiv>
       <Header>
         <HeaderContent />
       </Header>
@@ -14,7 +14,7 @@ const Layout: FC = ({ children }) => {
       <Footer>
         <FooterContent />
       </Footer>
-    </div>
+    </LayoutDiv>
   );
 };
 

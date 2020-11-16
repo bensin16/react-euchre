@@ -5,9 +5,9 @@ import { Card } from 'components';
 const Home: FC = () => {
   return (
     <>
-      <Card>one</Card>
-      <Card>two</Card>
-      <Card>three</Card>
+      <Card>profile/login</Card>
+      <Card>live lobbies</Card>
+      <Card>chat</Card>
     </>
   );
 };

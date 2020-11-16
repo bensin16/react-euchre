@@ -18,6 +18,7 @@ export default createGlobalStyle`
           height: 100%;
           justify-content: center;
           padding: 15px;
+          width: 100%;
         }
       }
     }
