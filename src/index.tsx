@@ -7,15 +7,18 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles, theme } from 'styles';
 import Layout from 'layout';
 import Routes from 'routes';
+import { CurrentUserProvider } from 'hooks';
 
 ReactDOM.render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <BrowserRouter>
-        <Layout>
-          <Routes />
-        </Layout>
+        <CurrentUserProvider>
+          <Layout>
+            <Routes />
+          </Layout>
+        </CurrentUserProvider>
       </BrowserRouter>
     </ThemeProvider>
   </StrictMode>,
