@@ -1,19 +1,15 @@
 import React, { FC } from 'react';
 
-import { HeaderContent, FooterContent } from 'components';
+import { PageHeader, PageFooter } from 'components';
 
-import { Content, Header, LayoutDiv, Footer } from './styles';
+import { Content, LayoutDiv } from './styles';
 
 const Layout: FC = ({ children }) => {
   return (
     <LayoutDiv>
-      <Header>
-        <HeaderContent />
-      </Header>
+      <PageHeader />
       <Content>{children}</Content>
-      <Footer>
-        <FooterContent />
-      </Footer>
+      <PageFooter />
     </LayoutDiv>
   );
 };
