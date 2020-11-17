@@ -1,9 +1,11 @@
 import React, { FC } from 'react';
 
-import LogoImage from './img/test_logo.png';
+import { LogoImg } from '../styles';
+
+import LogoFile from './img/test_logo.png';
 
 const HeaderContent: FC = () => {
-  return <img src={LogoImage} alt="testlogo" />;
+  return <LogoImg src={LogoFile} alt="testlogo" />;
 };
 
 export default HeaderContent;

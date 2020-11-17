@@ -7,3 +7,9 @@ export const Header = styled.header`
   justify-content: center;
   text-align: center;
 `;
+
+export const LogoImg = styled.img`
+  margin-right: auto;
+  margin-left: auto;
+  height: 50%;
+`;
