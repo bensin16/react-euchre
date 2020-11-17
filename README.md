@@ -2,7 +2,7 @@
 
 ## todo:
 
-- Add actual login form/show username when logged in on the right card.
+- Add actual login form/show username when logged in on the left card.
 - Maybe try and do the chat before the game component just for fun.
 - Ensure cards are proper length of the page once contents fill inside of them (aka learn more css :( ))
 
