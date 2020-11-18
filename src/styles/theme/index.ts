@@ -5,6 +5,7 @@ const theme = {
     blue: 'blue',
     green: 'green',
     white: 'white',
+    lightGrey: 'lightgrey',
   },
   transition: '0.3s',
 };
