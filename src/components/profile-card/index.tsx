@@ -1,6 +1,10 @@
 import React, { FC, useState } from 'react';
 
+<<<<<<< HEAD
 import { Button, Card, Login, Logout, Signup } from 'components';
+=======
+import { Button, Card, Login, Signup } from 'components';
+>>>>>>> 3a026b46f73229928afdb7f60159bd170cb5777b
 
 import { useCurrentUser } from 'hooks';
 
@@ -28,10 +32,14 @@ const ProfileCard: FC = () => {
   return (
     <Card>
       {user ? (
+<<<<<<< HEAD
         <>
           <Button onClick={goToProfile}>View Profile</Button>
           <Logout />
         </>
+=======
+        <Button onClick={goToProfile}>View Profile</Button>
+>>>>>>> 3a026b46f73229928afdb7f60159bd170cb5777b
       ) : (
         <>
           {showLogin ? (
