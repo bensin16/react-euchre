@@ -11,6 +11,7 @@ export { default as Signup } from './signup';
 
 // specialized cards
 export { default as ProfileCard } from './profile-card';
+export { default as Lobbies } from './lobbies';
 
 // other
 export { default as Field } from './field';
