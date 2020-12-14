@@ -29,6 +29,11 @@ const ProfileCard: FC = () => {
     <Card>
       {user ? (
         <>
+          {/* add styled components for username and wins/losses stat on main page */}
+          <h1>{user.username}</h1>
+          <h3>
+            {user.wins} W / {user.losses} L
+          </h3>
           <Button onClick={goToProfile}>View Profile</Button>
           <Logout />
         </>

@@ -10,6 +10,7 @@ const LobbiesCard: FC = () => {
   const { isFetching, lobbies } = useLobbies();
 
   // TODO: make styled h1 tag centered and stuff
+  // TODO: put fetching rooms in a card
   if (isFetching) return <h1>Fetching Rooms...</h1>;
   if (lobbies.length === 0) return <h1>No Lobbies Found</h1>;
 

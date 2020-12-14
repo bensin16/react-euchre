@@ -50,7 +50,7 @@ const Signup: FC = () => {
         .collection('users')
         .doc(response.user.uid)
         .set({
-          displayName: response.user.email?.split('@')[0] ?? '<UNKNOWN>',
+          username: response.user.email?.split('@')[0] ?? '<UNKNOWN>',
         });
     } catch (ex) {
       setFirebaseErr(ex.message);
